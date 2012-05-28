@@ -2,13 +2,13 @@
 TARGET_BOOTANIMATION_NAME := vertical-320x480
 
 # Include GSM stuff
-$(call inherit-product, vendor/aokp/config/gsm.mk)
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Inherit device configuration for p500.
 $(call inherit-product, device/lge/p500/p500.mk)
 
 # Inherit some common aokp stuff.
-$(call inherit-product, vendor/aokp/config/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_phone.mk)
 
 # Include FM-Radio stuff
 #$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
