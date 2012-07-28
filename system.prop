@@ -23,3 +23,10 @@ persist.sys.usb.config=mass_storage,adb
 ro.opengles.version=131072
 
 ro.sf.lcd_density=160
+
+# hardware info
+ro.device.cpu=ARM11 v6
+ro.device.gpu=Adreno 200
+ro.device.rear_cam=3 MP
+ro.device.front_cam=N/A
+ro.device.screen_res=320x480
